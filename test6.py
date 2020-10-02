@@ -21,6 +21,6 @@ for i in range(0,l-1):
 		
 	if(val[roman[i]] >= val[roman[i+1]]):
 		sum = sum + val[roman[i]]
-	print(sum)
+	print("Sum = ", sum)
 
 print(flag)
